@@ -1,4 +1,5 @@
 import ClassCounter from "./ClassCounter";
+import ClassCounterTwo from "./ClassCounter2";
 import HooksCounter from "./HooksCounter";
 import HooksCounter2 from "./HooksCounter2";
 
@@ -15,6 +16,7 @@ function App() {
         <p>Counter With Previous State</p>
         <center>
           <HooksCounter2 />
+          <ClassCounterTwo />
         </center>
       </div>
     </>
