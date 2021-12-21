@@ -3,6 +3,7 @@ import ClassCounterTwo from "./ClassCounter2";
 import HooksCounter from "./HooksCounter";
 import HooksCounter2 from "./HooksCounter2";
 import HooksCounterThree from "./HooksCounter3";
+import HooksCounterFour from "./HooksCounterFour";
 
 function App() {
   return (
@@ -24,6 +25,12 @@ function App() {
         <p>UseState with Object</p>
         <center>
           <HooksCounterThree />
+        </center>
+      </div>
+      <div>
+        <p>Use State with Array</p>
+        <center>
+          <HooksCounterFour />
         </center>
       </div>
     </>
