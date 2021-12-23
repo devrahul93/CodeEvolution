@@ -1,17 +1,20 @@
-import Counter from "./classCounter";
-import ClassCounterone from "./ClassCounterOne";
-import HooksCounter from "./HooksCounter";
-import HooksCounterOne from "./Hookscounterone";
+import Counter from "./components/classCounter";
+import ClassCounterone from "./components/ClassCounterOne";
+import ClassMouse from "./components/ClassMouse";
+import HooksCounter from "./components/HooksCounter";
+import HooksCounterOne from "./components/Hookscounterone";
+import HooksMouse from "./components/HooksMouse";
 
 const App = () => {
   return (
     <>
-      <h1>hello world</h1>
       {/* <Counter /> */}
       {/* <HooksCounter /> */}
-      <p>Conditionally run effects</p>
+      {/* <p>Conditionally run effects</p> */}
       {/* <ClassCounterone /> */}
-      <HooksCounterOne />
+      {/* <HooksCounterOne /> */}
+      <ClassMouse />
+      <HooksMouse />
     </>
   );
 };
