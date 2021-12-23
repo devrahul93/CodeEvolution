@@ -4,6 +4,8 @@ import ClassMouse from "./components/ClassMouse";
 import HooksCounter from "./components/HooksCounter";
 import HooksCounterOne from "./components/Hookscounterone";
 import HooksMouse from "./components/HooksMouse";
+import IntervalClassCounter from "./components/IntervalClassConter";
+import IntervalHooksCounter from "./components/IntervalHooksCounter";
 import MouseContainer from "./components/MouseContainer";
 
 const App = () => {
@@ -16,7 +18,9 @@ const App = () => {
       {/* <HooksCounterOne /> */}
       {/* <ClassMouse /> */}
       {/* <HooksMouse /> */}
-      <MouseContainer />
+      {/* <MouseContainer /> */}
+      <IntervalClassCounter />
+      <IntervalHooksCounter />
     </>
   );
 };
