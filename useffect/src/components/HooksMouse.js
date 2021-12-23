@@ -9,7 +9,11 @@ const HooksMouse = () => {
   };
 
   useEffect(() => {
+    console.log("rendr called");
     window.addEventListener("mousemove", logMousePosition);
+    return () => {
+      window.removeEventListener("mousemove", logMousePosition);
+    };
   }, []);
 
   return (
