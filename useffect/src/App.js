@@ -1,6 +1,7 @@
 import Counter from "./classCounter";
 import ClassCounterone from "./ClassCounterOne";
 import HooksCounter from "./HooksCounter";
+import HooksCounterOne from "./Hookscounterone";
 
 const App = () => {
   return (
@@ -9,7 +10,8 @@ const App = () => {
       {/* <Counter /> */}
       {/* <HooksCounter /> */}
       <p>Conditionally run effects</p>
-      <ClassCounterone />
+      {/* <ClassCounterone /> */}
+      <HooksCounterOne />
     </>
   );
 };
