@@ -19,8 +19,8 @@ const App = () => {
       {/* <ClassMouse /> */}
       {/* <HooksMouse /> */}
       {/* <MouseContainer /> */}
-      <IntervalClassCounter />
-      <IntervalHooksCounter />
+      {/* <IntervalClassCounter /> */}
+      {/* <IntervalHooksCounter /> */}
     </>
   );
 };
