@@ -23,14 +23,14 @@ const Products = () => {
         <h3>Products</h3>
         <input style={input} placeholder="Search for products" type="search" />
       </center>
-      <footer style={{ margin: '2em' }}>
+      <section style={{ margin: '2em' }}>
         <Link style={link} to="feature">
           Featured Products
         </Link>
         <Link style={link} to="newProduct">
           New Products
         </Link>
-      </footer>
+      </section>
       <Outlet />
     </div>
   )
